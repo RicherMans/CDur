@@ -1,0 +1,17 @@
+data: data/features/urban_sed_train.h5
+batch_size: 64
+num_workers: 3
+data_args:
+    mode: stratified # Stratified split to train and cv
+label: data/flists/urban_sed_train_weak.tsv
+optimizer: AdamW
+optimizer_args:
+    lr: 0.001
+epochs: 100 
+model: CDur
+model_args: #Currently None, no additional args
+    temppool: linear
+outputpath: experiments/UrbanSED
+transforms: [freqmask, timemask, shift]
+shuffle: False
+sampler: MinimumOccupancySampler
