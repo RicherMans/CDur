@@ -31,7 +31,7 @@ c.wav   0.4 4   Dog
 ```
 
 
-### Urban-SED {#urban_sed}
+### Urban-SED
 
 To train (and download) CDur on the URBAN-SED corpus, run the following:
 
