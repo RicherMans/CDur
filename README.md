@@ -60,7 +60,7 @@ c.wav   0.4 4   Dog
 
 To train (and download) CDur on the URBAN-SED corpus, run the following:
 
-```
+```bash
 cd data
 # Downloading and/or preparing the urbansed dataset
 bash prepare_urbansed.sh
