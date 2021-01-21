@@ -1,6 +1,6 @@
 # CDur
 
-Repository for the paper "Towards duration robust weakly supervised sound event detection"
+Repository for the paper [Towards duration robust weakly supervised sound event detection](https://arxiv.org/abs/2101.07687)
 
 Currently for training due to the difficulties of obtaining the training data for DCASE2017/18, the script only supports training and evaluation of the URBAN-SED corpus.
 The links to the datasets for training the [DCASE2017](https://github.com/ankitshah009/Task-4-Large-scale-weakly-supervised-sound-event-detection-for-smart-cars) and [DCASE2018](https://github.com/DCASE-REPO/dcase2018_baseline/tree/master/task4/dataset) datasets are provided.
