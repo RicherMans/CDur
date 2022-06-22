@@ -10,7 +10,7 @@ tqdm==4.47.0
 librosa==0.7.2
 tabulate==0.8.7
 h5py==2.10.0
-numpy==1.19.0
+numpy==1.22.0
 adabound==0.0.5
 ignite==1.1.0
 pypeln==0.4.4
