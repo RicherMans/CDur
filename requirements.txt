@@ -1,4 +1,4 @@
-scipy==1.5.1
+scipy==1.10.0
 six==1.15.0
 fire==0.3.1
 loguru==0.5.1
